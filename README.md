@@ -1,40 +1,40 @@
-# SOLID Principles
+## SOLID Principles
 
-	for building a system that is:
-	* easy to maintain
-	* easy to extend
-	* easy to understand
-	* easy to implement
-	* easy to extent 
-	* easy to explain
-	
-	
-	1. Single Responsibility Principle
-	
-		Principle about creation. Class/Function should perform only one task or should have only a single responsibility to perform.
-		
-	2. Open Closed Principle
-	 	 
-		 Software entities(classes, modules, functions , etc.) should be open fo extension, but closed for modification or in other words, an implementation, once created should be closed for further modification but open for extension.
-		 
-	3. Liskov Substitution Principle
-	
-		Implementation(class/function) that use a base class, or in other words consume a service of a base class, must work correctly when the base class object is replaced by a child class(derived class) object.
-		
-	4. Interface Segregation Principle
-	
-		This, principle is related to creating an interface for implementation."Client(class implementation interface) should not force to implement interface that they don't use." or in simple words, do not design a big fat interface that forces the client to implement a method that is not requred by it, instead design a small interface and by doing so, the class will only implement the required set of interface(s).
-		
-	5. Dependency Inversion Principle
-	
-		"High level modules should not depend upon low level modules. Both should depend upon abstractions.
-		Abstractions should not depend upon details. Details should depend upon abstractions."
-		
-		This principle  says that we need to decouple the system in such a way that the higher level modules will depend on a simple abstraction and will use it. This abstraction will be mapped to some concrete class which will perform the actual operation. 
-		
-		The best way for not violating this principle is using the **Dependency Inversion Pattern** .
+for building a system that is:
+* easy to maintain
+* easy to extend
+* easy to understand
+* easy to implement
+* easy to extent 
+* easy to explain
 
- 	reference: https://www.codeproject.com/Articles/1009577/Solid-Principle-In-Detail
+
+1. Single Responsibility Principle
+
+	Principle about creation. Class/Function should perform only one task or should have only a single responsibility to perform.
+
+2. Open Closed Principle
+
+	 Software entities(classes, modules, functions , etc.) should be open fo extension, but closed for modification or in other words, an implementation, once created should be closed for further modification but open for extension.
+
+3. Liskov Substitution Principle
+
+	Implementation(class/function) that use a base class, or in other words consume a service of a base class, must work correctly when the base class object is replaced by a child class(derived class) object.
+
+4. Interface Segregation Principle
+
+	This, principle is related to creating an interface for implementation."Client(class implementation interface) should not force to implement interface that they don't use." or in simple words, do not design a big fat interface that forces the client to implement a method that is not requred by it, instead design a small interface and by doing so, the class will only implement the required set of interface(s).
+
+5. Dependency Inversion Principle
+
+	"High level modules should not depend upon low level modules. Both should depend upon abstractions.
+	Abstractions should not depend upon details. Details should depend upon abstractions."
+
+	This principle  says that we need to decouple the system in such a way that the higher level modules will depend on a simple abstraction and will use it. This abstraction will be mapped to some concrete class which will perform the actual operation. 
+
+	The best way for not violating this principle is using the **Dependency Inversion Pattern** .
+
+reference: <https://www.codeproject.com/Articles/1009577/Solid-Principle-In-Detail>
 
 # Inversion of Control
 
