@@ -1,4 +1,0 @@
-INDEX VERSION 1.130+C:\Users\kosto\Desktop\design patterns\.metadata\.plugins\org.eclipse.jdt.core
-2908674549.index
-51067976.index
-749124478.index
